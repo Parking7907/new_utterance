@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python ./trainSpeakerNet.py --eval --model ResNetSE34L --log_input True --trainfunc angleproto --save_path exps/test --eval_frames 400 --initial_model baseline_lite_ap.model --train_list data/train_list_Korean.txt --test_list data/test_list_Korean.txt --train_path /home/data/hyundai/new_data --test_path /home/data/hyundai/new_data_validation

@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python ./trainSpeakerNet.py --eval --model ResNetSE34F3 --log_input True --trainfunc aamsoftmax --margin 0.1 --save_path exps/test --eval_frames 400 --initial_model ./checkpoints/F3_7_490.model --nOut 512

@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python ./trainSpeakerNet.py --model ResNetSE34V2 --log_input True --trainfunc aamsoftmax --save_path exps/korean_ResV2 --batch_size 200 --train_list data/train_list_Korean.txt --test_list data/test_list_Korean.txt --train_path /home/data/hyundai/new_data --test_path /home/data/hyundai/new_data_validation --multi_eval False

@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python ./trainSpeakerNet.py --eval --model ResNetSE34F1 --log_input True --trainfunc aamsoftmax --save_path exps/test --eval_frames 300 --initial_model model000000260.model --margin 0.3

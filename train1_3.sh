@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python ./trainSpeakerNet.py --model ResNetSE34F1 --log_input True --encoder_type SAP --trainfunc aamsoftmax --save_path exps/exp_F1_3 --nClasses 5994 --batch_size 200 --scale 30 --margin 0.1

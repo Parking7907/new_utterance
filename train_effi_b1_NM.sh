@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python ./trainSpeakerNet.py --model EfficientNetb1_NM --log_input True --encoder_type SAP --trainfunc aamsoftmax --save_path exps/exp_effi_b1_nm --nClasses 5994 --scale 30 --margin 0.1 --max_frames 254 --batch_size 80

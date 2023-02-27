@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python ./trainSpeakerNet.py --eval --config ./configs/RawNet3_AAM.yaml --initial_model model.pt

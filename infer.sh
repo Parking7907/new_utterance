@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python ./trainSpeakerNet.py --infer --model ResNetSE34L --log_input True --trainfunc angleproto --save_path exps/test --eval_frames 300 --initial_model baseline_lite_ap.model

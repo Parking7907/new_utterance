@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python ./trainSpeakerNet.py --eval --config ./configs/RawNet3_AAM.yaml --initial_model ./model.pt --train_list data/train_list_Korean.txt --test_list data/test_list_Korean.txt --train_path /home/data/hyundai/new_data --test_path /home/data/hyundai/new_data_validation
